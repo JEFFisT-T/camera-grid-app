@@ -19,6 +19,7 @@ jobs:
       with:
         workdir: .
         buildozer_version: stable
+        repository_root: .
     
     - name: Upload APK
       uses: actions/upload-artifact@v4
